@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viagem Dos Sonhos</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body>
+    <header class="container-fluid p-2 bg-warning text-center">
+        <nav>
+            <ul>
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">Taxas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Venha Realizar A Viagem Dos Seus Sonhos!</h1>
+    </header>
+    
+    <section id="pacotes">
+        <h2>Conheça nossos pacotes</h2>
+        <p>
+            Sonhe grande e viaje mais com nossos pacotes personalizados. Seja para relaxar em praias paradisíacas, explorar cidades históricas ou viver aventuras radicais, temos o pacote perfeito para você.
+
+            Nossos especialistas em viagens cuidam de todos os detalhes para que você possa se dedicar apenas a aproveitar cada momento.
+            <br><br>
+            <a href="https://www.lipsum.com/feed/html">Link</a>
+        </p>
+
+        <div class="imagem-container">
+            <figure>
+                <img src="img/4Cantos.jpg" alt="Imagem: 4 Cantos no carnaval, Olinda">
+                <figcaption>Quatro Cantos, Olinda - PE</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Maraca.jpg" alt="Maracaipe - PE">
+                <figcaption>Maracaipe - PE</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Recife.jpg" alt="Registro de uma das ilhas de recife, ao pôr do sol">
+                <figcaption>Recife - PE</figcaption>
+            </figure>
+        </div>
+        <div class="videos">
+            <video controls>
+                <source src="videos/Para os apaixonados por viagem - Vídeo Para Status do WhatsApp 30 Segundos.mp4" type="video/mp4">
+                Seu navegador não suporta o formato do vídeo. <a href="https://www.youtube.com/watch?v=Aeh80_gerjo&ab_channel=StatusIncr%C3%ADveis">Clique aqui para assistir ao vídeo.</a>
+            </video>
+        </div>
+    </section>
+
+    <section>
+        <h2>Taxas e Serviços</h2>
+        <p>Confira nossas taxas!</p>
+        <table>
+            <caption>Descrição dos serviços e seus respectivos valores</caption>
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Reserva de hotel</td>
+                    <td>R$500</td>
+                </tr>
+                <tr>
+                    <td>Compra de passagens</td>
+                    <td>R$150</td>
+                </tr>
+                <tr>
+                    <td>Aluguel de carros</td>
+                    <td>R$50</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Orçamento</h2>
+        <form method="get" action="">
+            <fieldset>
+                <label>Nome:</label><br>
+                <input type="text" required name="Nome"><br><br>
+                <label>Sobrenome:</label><br>
+                <input type="text" required name="Sobrenome"><br><br>
+                <label>E-mail:</label><br>
+                <input type="email" required name="E-mail"><br><br>
+                <label>Data de ida:</label><br>
+                <input type="date" required name="dataIda"><br><br>
+                <label>Data de Volta:</label><br>
+                <input type="date" required name="dataVolta"><br><br>
+                <label>Quantidade de Pessoas:</label><br>
+                <input type="number" name="qntPessoas"><br><br>
+                <button>Salvar</button>
+            </fieldset>
+
+            <fieldset>
+                <legend>Quais serviços deseja contratar?</legend>
+                <label><input type="checkbox" name="passagens" value="Passagens">Compra de passagens</label>
+                <label><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem</label>
+                <label><input type="checkbox" name="veículos" value="Veículos">Reserva de veículos</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label><input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de Crédito</label>
+                <label><input type="radio" name="formaPagamento" value="boleto">Boleto</label>
+                <label><input type="radio" name="formaPagamento" value="Pix">Pix</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Escolha uma forma de pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista">À vista</option>
+                    <option value="5x">5x sem juros</option>
+                    <option value="10x" selected>10x com juros</option>
+                </select>
+            </fieldset>
+            <br><label>Comentário:</label><br>
+            <textarea rows="5" name="Comentário"></textarea>
+            <button>Salvar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por Beatriz Ximenes</p>
+    </footer>
+</body>
+</html>

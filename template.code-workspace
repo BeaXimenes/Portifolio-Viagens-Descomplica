@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Área de Trabalho/Descomplica/AulaJavaScript"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "AulaJavaScript"
+	}
+}

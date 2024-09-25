@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .custom-header {
+            background-color: rgb(131, 33, 33);
+        }
+
+        .custom-header h2 {
+            color: #303030; /* Cor desejada para os h2 */
+        }
+
+        .custom-header p {
+            color: dimgray; /* Cor desejada para os parágrafos */
+        }
+
+        /* Estilos adicionais para o texto fora do cabeçalho */
+        h2 {
+            color: #303030 !important; /* Cor para os h2 fora do cabeçalho */
+        }
+
+        p {
+            color: dimgray; /* Cor para os parágrafos fora do cabeçalho */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="custom-header text-white text-center py-3">
+        <h1>Principais Estilos de Tatuagem</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao1">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao2">Trabalhe conosco</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#secao3">Suporte</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo -->
+    <div class="container my-5">
+        <div id="secao1" class="mb-4">
+            <h2>Old School</h2>
+            <p>O estilo de tatuagem old school, também conhecido como tradicional, é caracterizado por seus traços ousados e cores vibrantes, geralmente em uma paleta limitada de vermelho, verde, amarelo e azul. Originado nas décadas de 1930 a 1950, esse estilo destaca-se por seus temas clássicos, como âncoras, rosas, crânios e pin-ups, muitas vezes envolvendo simbolismos de amor, liberdade e coragem. As tatuagens old school possuem um aspecto vintage, remetendo à estética dos marinheiros e das tradições da cultura americana, e continuam a ser populares hoje em dia por sua simplicidade, clareza e forte apelo visual.</p>
+        </div>
+        <div id="secao2" class="mb-4">
+            <h2>Tribais</h2>
+            <p>A tatuagem tribal é uma forma de arte corporal que remonta a culturas antigas, sendo profundamente ligada à identidade e à espiritualidade de diversos povos ao redor do mundo. Com padrões geométricos e linhas marcantes, essas tatuagens muitas vezes simbolizam pertencimento, proteção e força. Cada traço pode contar uma história ou representar valores específicos, como coragem, ancestralidade e conexão com a natureza. Hoje, as tatuagens tribais ganharam popularidade global, sendo reinterpretadas por artistas contemporâneos, mas ainda preservam um elo poderoso com suas raízes culturais, evocando um senso de história e significado que ressoa com muitos.</p>
+        </div>
+        <div id="secao3" class="mb-4">
+            <h2>Realismo</h2>
+            <p>A tatuagem realista é uma forma de arte corporal que busca capturar a essência de retratos e imagens de maneira fiel, utilizando técnicas de sombreamento e detalhes minuciosos para criar um efeito tridimensional impressionante. Esse estilo pode abranger desde retratos de pessoas e animais até paisagens e objetos, desafiando o artista a alcançar uma precisão quase fotográfica. Os tatuadores que dominam essa técnica costumam passar horas aperfeiçoando suas habilidades, resultando em obras que muitas vezes parecem saltar da pele. A tatuagem realista não só destaca a habilidade técnica do artista, mas também permite que cada indivíduo carregue uma representação visual significativa e pessoal.</p>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; <span id="ano"></span> Minha Página Web. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Script para exibir o ano atual
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

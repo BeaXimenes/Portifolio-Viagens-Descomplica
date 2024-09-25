@@ -1,0 +1,137 @@
+h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    margin: 20px 80px;
+}
+
+.imagem-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite que as imagens se ajustem em várias linhas */
+    margin-bottom: 20px;
+}
+
+.imagem-container figure {
+    margin: 10px; /* Margem entre as figuras */
+    width: 30%; /* Define a largura de cada figura para garantir que fiquem lado a lado */
+}
+
+.imagem-container img {
+    max-width: 100%;
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove espaços em branco abaixo da imagem */
+}
+
+.imagem-container figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic; /* Adiciona itálico às legendas */
+}
+
+video {
+    width: 70%; /* Define a largura do vídeo igual às imagens */
+    height: auto;
+    display: block; /* Remove espaços em branco abaixo do vídeo */
+    margin: 20px auto; /* Centraliza o vídeo */
+}
+
+body {
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #818181;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    color: #303030;
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background: #e9e9e9;
+}
+
+table tr:nth-child(odd) {
+    background-color: #bdbdbdbd;
+}
+
+table thead th {
+    background-color: #487c1e;
+    color: white;
+}
+
+#pacotes .figuras figure {
+    display: inline-block;
+}
+
+#pacotes .figuras {
+    text-align: center;
+}
+
+header {
+    background-color: #487c1e;
+}
+
+section, footer {
+    margin: 40px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 55px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600; /* Corrigido para ser um número */
+}
+
+nav li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav {
+    font: 12px;
+    letter-spacing: 4px;
+    height: 50px;
+    background-color: #146114;
+    padding-right: 40px;
+}
